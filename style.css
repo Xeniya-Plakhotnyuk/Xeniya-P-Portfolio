@@ -164,12 +164,17 @@ nav{
 }
 
 
-.portfolio_item{
+
+.card {
     width: 300px;
-    height: 200px;
-    background-color: gray;
-    margin-bottom: 50px;
-}
+    height: 254px;
+    border:none;
+    border-radius: 30px;
+    background: #f7f5f5;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+
 
 .picture{
     box-shadow: var(--bs);
