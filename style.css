@@ -155,14 +155,20 @@ nav{
 }
 
 .label{
-    background-color: yellow;
+    background-color: rgb(255, 247, 136);
     width: 80px;
     height: 80px;
+    border-radius: 50%;
 }
 
 .label_row{
     display: flex;
     gap: 2rem;
+}
+
+.skill_badge:hover{
+  transform: scale(1.2);
+  transition: all 300ms;
 }
 
 .portfolio_list{
