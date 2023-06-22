@@ -708,7 +708,7 @@ footer {
       }
 }
 
-@media all and (max-width: 360px){
+@media all and (max-width: 400px){
   .about-me{
    font-size: 16px;
       }
@@ -716,13 +716,21 @@ footer {
  #home {
   margin-top: 4rem;
 }   .picture{
-  align-self: center;
-  border-radius: 50%;
+  width: 60%;
+  margin-left: -20px;  
 }
+
+.section__title--intro strong {
+  display: block;
+  font-weight: bold;
+  line-height: 2rem;
+  color: var(--clr-dark);
+}
+
 
 }
 
-@media all and (max-width: 360px){
+@media all and (max-width: 400px){
 .banner{
   padding: 21m .5em;
   background-image: url(office.jpeg);
@@ -733,7 +741,7 @@ footer {
 }
 
 .hobbies_title{
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .fa-solid{
