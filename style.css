@@ -38,8 +38,8 @@
 
 @media all and (max-width: 400px){
   :root {
-    --fs-h1: 3rem;
-    --fs-h2: 3rem;
+    --fs-h1: 2.5rem;
+    --fs-h2: 2.5rem;
     --fs-h3: 1rem;
     --fs-body: .7rem;
   }
@@ -153,7 +153,19 @@ h3 {
 
 .section__title {
   font-weight: var(--fw-reg);
-}
+  color: var(--clr-accent);
+
+  }
+
+  .hobbies_title{
+    font-size: 36px;
+    color: var(--clr-accent);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-weight: bolder;
+  }
+
+  
 
 .section__subtitle--intro {
   font-weight: var(--fw-reg);
@@ -170,7 +182,8 @@ h3 {
   background-color: var(--clr-accent);
   padding: 0.5em 1em;
   font-family: var(--ff-secondary);
-  margin-left: 2em;
+  margin-left: 2.5em;
+  flex-wrap: wrap;
 
 }
 
@@ -185,6 +198,9 @@ h3 {
 .section__title--intro strong {
   display: block;
   font-weight: bold;
+  line-height: 8rem;
+  color: var(--clr-dark);
+
 }
 
 
@@ -194,6 +210,7 @@ h3 {
   line-height: 30px;
   flex-wrap: wrap;
   margin-bottom: 3rem;
+  color: white;
 }
 
 .techs {
@@ -458,11 +475,11 @@ a {
   background: var(--clr-light);
 }
 
-.hobbies{
+.banner{
   padding: 2em 1em;
   background-image: url(office.jpeg);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
 }
 
@@ -595,6 +612,24 @@ form .form-row .submit-btn {
 }
 
 
+.fa-solid{
+  padding: 2rem;
+}
+
+.fa-solid:hover{
+  transform: translate(3px, 3px);
+  transition: .3s;
+  scale: 1.2;
+}
+
+.learn_badges{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+
 
 .social-links-top {
 
@@ -665,12 +700,58 @@ footer {
   .about-me{
     background-image: url(office2.jpeg);
       }
-}
+    }
 
 @media all and (max-width: 800px){
   .about-me{
    font-size: 18px;
       }
 }
+
+@media all and (max-width: 360px){
+  .about-me{
+   font-size: 16px;
+      }
+
+ #home {
+  margin-top: 4rem;
+}   .picture{
+  align-self: center;
+  border-radius: 50%;
+}
+
+}
+
+@media all and (max-width: 360px){
+.banner{
+  padding: 21m .5em;
+  background-image: url(office.jpeg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.hobbies_title{
+  font-size: 20px;
+}
+
+.fa-solid{
+  padding: 1rem;
+  max-width: 50px;
+}
+
+.learn_badges{
+  gap: 1rem;
+}
+
+
+}
+
+
+
+
+
+
 
 
