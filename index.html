@@ -61,16 +61,28 @@
 </header> 
 
 <section class="intro" id="home">
-    
+
+  <div data-aos="fade-right"
+  data-aos-delay="300">
 <h1 class="section__title section__title--intro">
 Hi, I am <strong class="section__title section__title--intro strong">Xeniya </strong>
   </h1>
 <p class="section__subtitle section__subtitle--intro">front-end developer</p>
+</div>
 
-
+<div 
+data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"
+     data-aos-delay="200"
+     >
 <img class="picture" src="avatar.jpeg" alt="avatar" width="400px">
+</div>
 
-<div class="contacts">
+<div class="contacts"
+data-aos="fade-down"
+data-aos-delay="500"
+>
      
     <ul class="social-links-top">
         <a href="mailto:xeniyaz@outlook.com"><li><i class="fa-regular fa-envelope"></i></li></a>
@@ -81,8 +93,14 @@ Hi, I am <strong class="section__title section__title--intro strong">Xeniya </st
 
 </section>
 
-<section class="about-me" id="about">
-    <div>
+<section class="about-me" id="about"
+data-aos="fade-up"
+data-aos-delay="700"
+>
+    <div 
+data-aos="flip-up"
+data-aos-delay="500"
+    >
 <h1 class="section__title section__subtitle--about">Getting know me</h1>
 
     <p class="about_text"><span>Front-End Developer</span> with a background as an Artist-illustrator.</p>
@@ -103,7 +121,10 @@ Hi, I am <strong class="section__title section__title--intro strong">Xeniya </st
 
 
 
-<div class="techs">
+<div class="techs"
+data-aos="fade-up"
+data-aos-delay="700"
+>
 
   <h2>Skills and Technologies</h2>
   
@@ -147,7 +168,10 @@ Hi, I am <strong class="section__title section__title--intro strong">Xeniya </st
 </div>
 
 
-<section class="my-works" id="works">
+<section class="my-works" id="works"
+data-aos="fade-up"
+data-aos-delay="900"
+>
 <h2>My portfolio</h2>
 
 <div class="portfolio_list">
@@ -182,8 +206,14 @@ Hi, I am <strong class="section__title section__title--intro strong">Xeniya </st
 
 </section>
 
-<div class="banner">
-<div class="hobbies">
+<div class="banner" 
+data-aos="fade-up"
+data-aos-delay="900">
+<div class="hobbies"
+data-aos="flip-left"
+data-aos-delay="1200"
+data-aos-duration="400"
+>
 <h1 class="hobbies_title">My hobbies</h1>
 
   <div>
@@ -203,7 +233,12 @@ Hi, I am <strong class="section__title section__title--intro strong">Xeniya </st
 </div>
 
 
-<div class="hobbies">
+<div class="hobbies" 
+data-aos="flip-right"
+data-aos-delay="1500"
+data-aos-duration="600"
+
+>
 <h1 class="hobbies_title">My learning <br> resources</h1>
 
 <div class="learn_badges">
@@ -215,7 +250,10 @@ Hi, I am <strong class="section__title section__title--intro strong">Xeniya </st
 </div>
 </div>
 
-<section class="contact-me" id="contacts">
+<section class="contact-me" id="contacts"
+data-aos="fade-up"
+data-aos-delay="900"
+>
   
     <div class="contacts_banner">
         <h2>Contact me</h2>
@@ -275,5 +313,8 @@ Hi, I am <strong class="section__title section__title--intro strong">Xeniya </st
 <script>
     AOS.init();
   </script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.1/dist/gsap.min.js"></script>
+
 </body>
 </html>
