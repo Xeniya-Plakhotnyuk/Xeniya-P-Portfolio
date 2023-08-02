@@ -94,16 +94,14 @@ nav {
   margin-top: 5px;
   padding: 10px;
   width: 100%;
-
 }
 
 .nav-item:hover {
   background-color: #16e0bd;
   cursor: pointer;
   transition: 0.3s ease-in;
-  max-height: 100%;
-  margin: 0;
-  position: relative;
+   /* max-height: 100%; */
+    position: relative;
 }
 
 
@@ -211,6 +209,7 @@ h3 {
   flex-wrap: wrap;
   margin-bottom: 3rem;
   color: white;
+  align-self: center;
 }
 
 .techs {
@@ -729,10 +728,6 @@ footer {
   color: var(--clr-dark);
 }
 
-
-}
-
-@media all and (max-width: 400px){
 .banner{
   padding: 21m .5em;
   background-image: url(office.jpeg);
@@ -751,12 +746,9 @@ footer {
   max-width: 50px;
 }
 
-.learn_badges{
-  gap: 1rem;
-}
-
 
 }
+
 
 
 
