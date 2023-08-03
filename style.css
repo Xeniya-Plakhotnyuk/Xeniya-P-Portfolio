@@ -161,6 +161,7 @@ h3 {
     margin-bottom: 2rem;
     margin-top: 2rem;
     font-weight: bolder;
+    letter-spacing: 2px;
   }
 
   
@@ -226,7 +227,7 @@ h3 {
 }
 
 .label {
-  background-color: rgb(255, 247, 136);
+  background-color: rgb(255, 219, 90);
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -478,7 +479,7 @@ a {
 
 .banner{
   padding: 2em 1em;
-  background-image: url(office.jpeg);
+  background-image: url(office3.jpeg);
   display: flex;
   justify-content: space-around;
   text-align: center;
